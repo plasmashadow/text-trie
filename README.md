@@ -1,4 +1,8 @@
-# karma-seed - the seed for projects using the Karma testing tool
+
+##Karma TDD Example
+karma-seed - the seed for projects using the Karma testing tool
+
+[![Build Status](https://travis-ci.org/plasmashadow/karma-js-tdd.svg?branch=master)](https://travis-ci.org/plasmashadow/karma-js-tdd)
 
 A basic seed app for new projects using Karma for testing. Contains some opinionated config settings such as:
 
