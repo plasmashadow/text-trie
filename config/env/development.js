@@ -7,7 +7,7 @@ module.exports = {
       'test/*.html' : ['html2js']
     },
     reporters: ['progress'],
-    autoWatch: true,
-    singleRun: false
+    autoWatch: false,
+    singleRun: true
   }
 };
