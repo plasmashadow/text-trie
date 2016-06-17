@@ -9,6 +9,10 @@ module.exports = {
     },
     reporters: ['progress', 'coverage'],
     autoWatch: false,
-    singleRun: true
+    singleRun: true,
+    coverageReporter: {
+      type: 'lcov',
+      dir: 'coverage/'
+    }
   }
 };

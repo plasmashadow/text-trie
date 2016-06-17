@@ -13,6 +13,9 @@ before_script:
 script:
   - npm run full-test
 
+after_success:
+  - coveralls
+
 sudo: required
 dist: trusty
 

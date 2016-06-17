@@ -24,6 +24,7 @@
   "homepage": "https://github.com/bbraithwaite/karma-seed",
   "devDependencies": {
     "chai": "^2.1.0",
+    "coveralls": "^2.11.9",
     "istanbul": "^0.3.6",
     "jshint": "^2.6.0",
     "karma": "^0.12.31",
