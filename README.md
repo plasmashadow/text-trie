@@ -3,6 +3,7 @@
 karma-seed - the seed for projects using the Karma testing tool
 
 [![Build Status](https://travis-ci.org/plasmashadow/karma-js-tdd.svg?branch=master)](https://travis-ci.org/plasmashadow/karma-js-tdd)
+[![Coverage Status](https://coveralls.io/repos/github/plasmashadow/karma-js-tdd/badge.svg?branch=master)](https://coveralls.io/github/plasmashadow/karma-js-tdd?branch=master)
 
 A basic seed app for new projects using Karma for testing. Contains some opinionated config settings such as:
 
