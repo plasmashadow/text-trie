@@ -1,27 +1,16 @@
 
-##Karma TDD Example
-karma-seed - the seed for projects using the Karma testing tool
+##TEXT TRIE
+Implementation of Full Text search in javascript.
+Uses a text Trie Implementation.
 
-[![Build Status](https://travis-ci.org/plasmashadow/karma-js-tdd.svg?branch=master)](https://travis-ci.org/plasmashadow/karma-js-tdd)
-[![Coverage Status](https://coveralls.io/repos/github/plasmashadow/karma-js-tdd/badge.svg?branch=master)](https://coveralls.io/github/plasmashadow/karma-js-tdd?branch=master)
+##USAGE
 
-A basic seed app for new projects using Karma for testing. Contains some opinionated config settings such as:
+```javascript
+   var Index = window.Index;
+   var word = "hello";
+   Index.insert(word)
+   Index.search("he")  // ["hello"]
+```
 
-* uses Istanbul for coverage
-* uses PhantomJS as default development browser
-
-## Useful Features
-
-* Ability to switch config based on _process.env.NODE_ENV_ value.
-
-
-## What to try it?
-
-* clone the report
-* do ```npm install```
-* run ``` npm test ```
-
-
-## Blog Post
-
-Accompanying Blog Post can be found at: [Karma Tutorial - Unit Testing JavaScript](http://www.bradoncode.com/blog/2015/02/27/karma-tutorial/)
+##License
+MIT

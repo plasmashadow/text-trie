@@ -8,7 +8,7 @@ module.exports = {
       'test/*.html' : ['html2js']
     },
     reporters: ['progress', 'coverage'],
-    autoWatch: false,
+    autoWatch: true,
     singleRun: true,
     coverageReporter: {
       type: 'lcov',

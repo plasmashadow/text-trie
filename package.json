@@ -1,27 +1,27 @@
 {
-  "name": "karma-seed",
+  "name": "text-trie",
   "version": "1.0.0",
-  "description": "A seed project for using the Karma test framework",
-  "main": "index.js",
+  "description": "A nifty searcher based of suffix tries",
+  "main": "lib/search.js",
   "scripts": {
     "test": "karma start karma.conf.js",
     "full-test": "NODE_ENV=test karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bbraithwaite/karma-seed"
+    "url": "https://github.com/plasmashadow/text-trie"
   },
   "keywords": [
     "karma",
     "seed",
     "project"
   ],
-  "author": "https://github.com/bbraithwaite",
+  "author": "https://github.com/plasmashadow",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bbraithwaite/karma-seed/issues"
+    "url": "https://github.com/plasmashadow/text-trie/issues"
   },
-  "homepage": "https://github.com/bbraithwaite/karma-seed",
+  "homepage": "https://github.com/plasmashadow/text-trie",
   "devDependencies": {
     "chai": "^2.1.0",
     "coveralls": "^2.11.9",
